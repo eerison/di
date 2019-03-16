@@ -1,0 +1,21 @@
+{
+    "name": "erison/di",
+    "authors": [
+        {
+            "name": "Erison Silva",
+            "email": "erison.sdn@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Eerison\\DI\\": "src/"}
+    },
+    "autoload-dev": {
+        "psr-4": { "Eerison\\DI\\Tests\\": "tests/" }
+    },
+    "require": {
+        "php-di/php-di": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    }
+}
